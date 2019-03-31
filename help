@@ -1,0 +1,57 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //declaring variables
+    int Hello;
+    int Pokemons;
+    int VideoGames;
+    int answer;
+    int randombs;
+    //intro 
+    cout<<"=============================\n";
+    cout<<"Hello, how old are you?\n";
+    cin>>Hello;
+    
+    if( Hello >= 18){
+        
+        cout<<"Access Granted!\n";
+        cout<<"What do u like:\n";
+        cout<<"1-Pokemons\n";
+        cout<<"2-VideoGames\n";
+        
+        cin>>answer;
+
+    }
+    else{
+        cout<<"oH bOi! UnDerAged, just the way pdf files like you!\n";
+    }
+    //the problem starts here
+    //it gives both pokemon and video games each 1 point each
+        if(answer==1){
+            Pokemons++;
+        }
+        else {
+            VideoGames++;
+        }
+    if(Pokemons=1){
+       cout<<"ur not cool and i hope u die :D\n";
+        
+    }
+     else if(VideoGames==1){
+    cout<<"u seem cool, tell me more about ur self\n";
+    cin>>randombs;
+     cout<<"omg thats so cool, i wish i could do those stuff!\n";
+     return 6969;
+    }
+     else{
+            return 6969;
+     }
+
+
+    cout<<"pokemon val:"<<Pokemons<<"    videogames val:"<<VideoGames;
+    return 0;
+}
