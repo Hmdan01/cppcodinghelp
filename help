@@ -7,8 +7,8 @@ int main()
 {
     //declaring variables
     int Hello;
-    int Pokemons;
-    int VideoGames;
+    int Pokemons=0;
+    int VideoGames=0;
     int answer;
     int randombs;
     //intro 
