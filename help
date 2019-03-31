@@ -6,11 +6,7 @@ using namespace std;
 int main()
 {
     //declaring variables
-    int Hello;
-    int Pokemons=0;
-    int VideoGames=0;
-    int answer;
-    int randombs;
+    int Hello, Pokemons=0, VideoGames=0, answer, randombs;
     //intro 
     cout<<"=============================\n";
     cout<<"Hello, how old are you?\n";
